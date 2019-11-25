@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+	<link href="styles.css"rel=stylesheet>
+	<script src="scripts.js"type="application/javascript"></script>
+<meta charset="utf-8">
+<title>index</title>
+<script type="text/javascript">
+function MM_changeProp(objId,x,theProp,theValue) { //v9.0
+  var obj = null; with (document){ if (getElementById)
+  obj = getElementById(objId); }
+  if (obj){
+    if (theValue == true || theValue == false)
+      eval("obj.style."+theProp+"="+theValue);
+    else eval("obj.style."+theProp+"='"+theValue+"'");
+  }
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('BP1.jpg','BP2.jpg','BP3.jpg','BP4.jpg')">
+	<h1>ULTIMATE BENCH PRESS</h1>
+	<img src="BP1.jpg" width="311" height="162" alt=""/>
+	<div>The Ultimate Upperbody Workout</div>
+<div id="nav">
+	<p id="form-link" onMouseDown="MM_changeProp('nav','','backgroundImage','url(BP2.jpg)','DIV');MM_changeProp('formtext','','display','block','DIV');MM_changeProp('stylestext','','display','none','DIV');MM_changeProp('benefitstext','','display','none','DIV')">FORM</p>
+	<p id="styles-link" onMouseDown="MM_changeProp('nav','','backgroundImage','url(BP3.jpg)','DIV');MM_changeProp('formtext','','display','none','DIV');MM_changeProp('stylestext','','display','block','DIV');MM_changeProp('benefitstext','','display','none','DIV')">STYLES</p>
+	<p id="benefits-link" onMouseDown="MM_changeProp('nav','','backgroundImage','url(BP4.jpg)','DIV');MM_changeProp('benefitstext','','display','block','DIV');MM_changeProp('formtext','','display','none','DIV');MM_changeProp('stylestext','','display','none','DIV')">BENEFITS</p>
+	
+	
+</div>
+<DIV id="text">
+		<DIV id="formtext">A good, solid, steady form is 75% of the battle.</DIV>
+		
+		
+		<div id="stylestext">There are many styles of bench press that can sculpt and build many other parts of your upperbody physique.</div>
+		<div id="benefitstext">Although, the bench press primarily works your chest and triceps, it is the best OVERALL upperbody workout; it is the primary gauge for upperbody strength in competitions.</div>
+	</DIV>
+	
+</body>
+</html>
